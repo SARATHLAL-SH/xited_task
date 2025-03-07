@@ -115,8 +115,8 @@ const Navbar = () => {
   ];
 
   return (
-    <nav className="bg-[#FCB34A] p-4 h-[166px] flex items-center fixed top-0 w-full z-50">
-      <div className="container mx-auto flex justify-between items-center">
+    <nav className="bg-[#FCB34A] p-4 h-[166px] flex items-center fixed top-0  w-full z-50">
+      <div className="container mx-auto flex justify-between items-center ">
         {/* Logo */}
         <img src={logo} alt="NADURA Logo" className="w-[101px]" />
 

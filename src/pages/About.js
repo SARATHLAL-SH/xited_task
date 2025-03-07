@@ -10,7 +10,7 @@ import  bgcurve from "../assets/images/bgCurv.png";
 
 const About = () => {
   return (
-    <div className="relative overflow-hidden">
+    <div className="relative overflow-hidden w-full">
     <div
       className="relative flex flex-col md:flex-row w-full min-h-screen gap-5 justify-between  items-center  px-6 md:px-12 bg-cover bg-center bg-no-repeat pb-20"
       style={{ backgroundImage: `url(${bgOverLay})`}}
@@ -47,38 +47,38 @@ const About = () => {
       </div>
 
       {/* Right Section - Image */}
-      <div className="w-full relative z-20 md:w-[50%] flex flex-col justify-center items-center pt-12 md:mt-0 ">
+      <div className="w-full relative z-20 md:w-[50%]  flex flex-col justify-center items-center md:pt-12 pt-24 md:mt-0">
   {/* ✅ Left Leaf - Scales Proportionally */}
   <img
     src={leftLeaf}
     alt="Left Leaf"
-    className="absolute left-[0vw] md:left-[0vw] top-[52%] transform -translate-y-1/2 
-               w-[25vw] max-w-[500px] md:min-w-[100px] min-w-[150px] aspect-auto"
+    className="absolute left-[0vw] sm:left-[-2vw] md:left-[2vw] top-[52%] transform -translate-y-1/2 rotate-[270deg]
+               w-[50%] sm:w-[50%] md:w-[50%] max-w-[400px] aspect-auto"
   />
 
   {/* ✅ Right Leaf - Scales Proportionally */}
   <img
     src={rightLeaf}
     alt="Right Leaf"
-    className="absolute right-[-2vw] md:right-[-0vw] top-[45%] transform -translate-y-1/2 rotate-45 
-               w-[20vw] max-w-[400px] md:min-w-[100px] min-w-[150px] aspect-auto"
+    className="absolute right-[-4vw] sm:right-[-2vw] md:right-[-0vw] top-[45%] transform -translate-y-1/2 rotate-45 
+               w-[50%] sm:w-[50%] md:w-[50%] max-w-[400px]  aspect-auto"
   />
 
-  {/* ✅ Burger Image */}
+  {/* ✅ Burger Image - Responsive Scaling */}
   <img
     src={burgerImg}
     alt="Burger"
-    className="relative rounded-lg bg-transparent w-[90%] max-w-[698px] h-auto z-20 animate-bounce"
+    className="relative rounded-lg bg-transparent w-[95%] sm:w-[85%] md:w-[75%] max-w-[698px] h-auto z-20 animate-bounce"
   />
 
-  {/* ✅ Shadow Image */}
+  {/* ✅ Shadow Image - Responsive Width */}
   <img
     src={shadow}
     alt="Shadow"
-    className="absolute bottom-0 left-1/2 transform -translate-x-1/2 w-[90%] max-w-[698px] h-auto"
+    className="absolute bottom-0 left-1/2 transform -translate-x-1/2 w-[95%] sm:w-[85%] md:w-[75%] max-w-[698px] h-auto"
   />
-
 </div>
+
 
     </div>
     <div className="w-full overflow-hidden ">

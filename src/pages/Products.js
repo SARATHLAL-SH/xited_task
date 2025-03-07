@@ -31,7 +31,8 @@ const Products = () => {
           <img
             src={sausageImg}
             alt="Sausage"
-            className="absolute top-[10px] w-[250px] sm:w-[350px] md:w-[450px] lg:w-[666px] h-auto"
+            className="absolute top-[10px] w-[250px] sm:w-[350px] md:w-[450px] lg:w-[666px] h-auto 
+             transition-transform duration-300 ease-in-out hover:rotate-12"
           />
 
           {/* Leaf Decoration */}
@@ -69,31 +70,51 @@ const Products = () => {
         <div className="container mx-auto px-4 lg:px-8 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-12 text-center">
           {/* Icon 1 */}
           <div className="relative flex flex-col items-center">
-            <img src={icon1} alt="Icon" className="w-[100px] sm:w-[130px] lg:w-[167px] h-[133px]" />
+            <img
+              src={icon1}
+              alt="Icon"
+              className="w-[100px] sm:w-[130px] lg:w-[167px] h-[133px] transition-transform duration-300 hover:scale-110"
+            />
             <h4 className="font-bold text-lg sm:text-xl lg:text-2xl font-lato text-[#003A60] mt-4">
               Lorem ipsum
             </h4>
             <p className="text-sm sm:text-base lg:text-lg font-lato text-[#003A60]">
               Lorem ipsum dolor sit amet, consetetur sadipscing elitr,
             </p>
-            <img src={arrow1} alt="Arrow" className="hidden md:block absolute right-[-10vw] top-[-20%] w-[150px] sm:w-[200px] lg:w-[243px] h-auto" />
+            <img
+              src={arrow1}
+              alt="Arrow"
+              className="hidden md:block absolute right-[-10vw] top-[-20%] w-[150px] sm:w-[200px] lg:w-[243px] h-auto"
+            />
           </div>
 
           {/* Icon 2 */}
           <div className="relative flex flex-col items-center">
-            <img src={icon2} alt="Icon" className="w-[100px] sm:w-[130px] lg:w-[167px] h-[133px]" />
+            <img
+              src={icon2}
+              alt="Icon"
+              className="w-[100px] sm:w-[130px] lg:w-[167px] h-[133px] transition-transform duration-300 hover:scale-110"
+            />
             <h4 className="font-bold text-lg sm:text-xl lg:text-2xl font-lato text-[#003A60] mt-4">
               Lorem ipsum
             </h4>
             <p className="text-sm sm:text-base lg:text-lg font-lato text-[#003A60]">
               Lorem ipsum dolor sit amet, consetetur sadipscing elitr,
             </p>
-            <img src={arrow2} alt="Arrow" className=" hidden md:block absolute right-[-11vw] top-[5vh] w-[150px] sm:w-[200px] lg:w-[248px] h-auto" />
+            <img
+              src={arrow2}
+              alt="Arrow"
+              className=" hidden md:block absolute right-[-11vw] top-[5vh] w-[150px] sm:w-[200px] lg:w-[248px] h-auto"
+            />
           </div>
 
           {/* Icon 3 */}
           <div className="flex flex-col items-center">
-            <img src={icon3} alt="Icon" className="w-[100px] sm:w-[130px] lg:w-[167px] h-[133px]" />
+            <img
+              src={icon3}
+              alt="Icon"
+              className="w-[100px] sm:w-[130px] lg:w-[167px] h-[133px] transition-transform duration-300 hover:scale-110"
+            />
             <h4 className="font-bold text-lg sm:text-xl lg:text-2xl font-lato text-[#003A60] mt-4">
               Lorem ipsum
             </h4>

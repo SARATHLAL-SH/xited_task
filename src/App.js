@@ -53,7 +53,7 @@ const App = () => {
   return (
     <div>
       <Navbar />
-      <div className="pt-[166px]">
+      <div className="pt-[166px] ">
         <section id="about"><About /></section>
         <section id="products"><Products /></section>
         <section id="recipes"><Recipes /></section>

@@ -16,11 +16,13 @@ const Recipes = () => {
           </div>
 
           {/* Column 2: Hotdog Image */}
-          <div className="col-span-1 flex justify-center relative">
+          <div className="col-span-1 flex justify-center relative md:static">
             <img
               src={hotdog}
               alt="hot dog"
-              className="md:absolute md:h-[590px]  w-[100px] sm:w-[180px] md:w-[250px] lg:w-[449px]  top-[-25vh] sm:top-[-30vh] md:top-[-45vh] z-10"
+              className="w-[60%] sm:w-[90%] md:w-[90%]  lg:w-[80%] max-w-[449px] 
+               xl:absolute md:top-0 md:left-[22vw] 
+               top-[-25vh] sm:top-[-30vh] lg:top-[-100%] z-10 transition-transform duration-300 ease-in-out hover:rotate-12"
             />
           </div>
 
