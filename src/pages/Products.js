@@ -12,7 +12,7 @@ import arrow2 from "../assets/images/arrow2.png";
 
 const Products = () => {
   return (
-    <section className="relative w-full bg-white pt-0">
+    <section className="relative w-full bg-white pt-0 overflow-hidden">
       {/* Background Gradient */}
       <div className="absolute top-0 left-0 w-full h-32 "></div>
 

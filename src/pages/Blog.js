@@ -49,7 +49,7 @@ const Blog = () => {
   }, [currentIndex]);
 
   return (
-    <div className="bg-[#FAFFF2] pb-12 px-6 w-full">
+    <div className="bg-[#FAFFF2] pb-12 px-6 w-full overflow-hidden">
      
       {/* Image Carousel */}
       <div className="relative mt-0 max-w-4xl mx-auto flex items-center">

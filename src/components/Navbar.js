@@ -115,13 +115,13 @@ const Navbar = () => {
   ];
 
   return (
-    <nav className="bg-[#FCB34A] p-4 h-[166px] flex items-center fixed top-0  w-full z-50">
+    <nav className="bg-[#FCB34A] p-4 h-[166px] flex items-center fixed top-0   w-full z-50">
       <div className="container mx-auto flex justify-between items-center ">
         {/* Logo */}
         <img src={logo} alt="NADURA Logo" className="w-[101px]" />
 
         {/* Desktop Navigation */}
-        <ul className="hidden md:flex space-x-6 text-[35px]">
+        <ul className="hidden md:flex space-x-4 text-2xl lg:text-[30px] xl:text-[35px]">
           {navLinks.map((link) => (
             <li key={link.path}>
               <button
